@@ -1,4 +1,4 @@
-import { test } from "ava";
+import test from "ava";
 import axios from "axios";
 import MockAdapter from "axios-mock-adapter";
 
@@ -102,7 +102,7 @@ test("Correctly retries request when got 401 with new token", async t => {
 test("Correctly fails request when got non-401 error", async t => {
   const { mock, api } = t.context;
   mock.onGet("/users").reply(404);
-  await t.throws(async () => {
+  await t.throwsAsync(async () => {
     await api.getUsers();
   });
 });

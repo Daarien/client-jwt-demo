@@ -15,20 +15,20 @@
   "author": "Illya Klymov <illya@javascript.ninja",
   "license": "MIT",
   "devDependencies": {
-    "@babel/preset-env": "^7.0.0-beta.56",
-    "@babel/register": "^7.0.0-beta.56",
-    "@babel/runtime": "^7.0.0-beta.56",
-    "ava": "^1.0.0-beta.6",
-    "axios-mock-adapter": "^1.15.0",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.12.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.2.0"
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "ava": "^2.3.0",
+    "axios-mock-adapter": "^1.17.0",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "husky": "^3.0.4",
+    "lint-staged": "^9.2.5"
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.19.0"
   },
   "eslintConfig": {
     "extends": [
@@ -46,7 +46,7 @@
     "env": {}
   },
   "prettier": {
-    "trailingComma": true
+    "trailingComma": "es5"
   },
   "babel": {
     "presets": [
